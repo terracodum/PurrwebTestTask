@@ -8,7 +8,7 @@
     display: flex;
     padding-left: 4%;
     background-color: #FFAA4C;
-    height: 3dvh;
+    height: 3.5dvh;
 
     &__button {
         background-color: #FFAA4C;
@@ -72,10 +72,8 @@
     color:#FFFFFF;
     border-radius: 15px;
     padding: 1.2rem 3rem;
-    font-size: 2rem;
+    font-size: 1.25rem;
     background-color: #954CED;
-    height: 6rem;
-    width: 20rem;
     &__text {
         position: relative;
         z-index: 2;
@@ -125,22 +123,22 @@
         font-weight: 700;
         font-optical-sizing: 106%;
         font-family: "Outfit";
-        font-size: 9rem;
+        font-size: 6rem;
         color: #FFFFFF;
         padding-bottom: 5dvh;
     }
 
     &__subtitle {
         font-family: "Outfit";
-        font-size: 2rem;
+        font-size: 1.25rem;
         color: #FFFFFF;
         padding-bottom: 5dvh;
     }
 
     &__image {
         margin-left: 10dvw;
-        height: 70dvh;
-        width: 70dvh;
+        height: 80dvh;
+        width: 80dvh;
     }
 }
 
@@ -158,12 +156,12 @@
         font-family: "Outfit";
         color:#FFFFFF;
         font-weight: 500;
-        font-size: 2rem;
+        font-size: 1.25rem;
 
     }
 
     &__up {
-        padding-bottom: 3rem;
+        padding-bottom: 2rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -177,7 +175,7 @@
         display: flex;
         justify-content: space-between;
         color:#B9B9B9;
-        font-size: 1.4rem;
+        font-size: 1rem;
         font-weight: 300;
         font-family: "Outfit";
     }
