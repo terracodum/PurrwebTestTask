@@ -58,8 +58,10 @@
   color: #FFFFFF;
   border-radius: 15px;
   padding: 1.2rem 3rem;
-  font-size: 1.25rem;
+  font-size: 2rem;
   background-color: #954CED;
+  height: 6rem;
+  width: 20rem;
 }
 .button__text {
   position: relative;
@@ -123,6 +125,52 @@
   margin-left: 10dvw;
   height: 70dvh;
   width: 70dvh;
+}
+
+.about-page {
+  background-color: #181818;
+  height: 100dvh;
+}
+
+.footer {
+  background-color: #181818;
+  padding: 1rem 4rem;
+}
+.footer__tab {
+  margin-left: 2rem;
+  text-decoration: none;
+  font-family: "Outfit";
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.footer__up {
+  padding-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px #444444 solid;
+}
+.footer__logo {
+  scale: 1.5;
+}
+.footer__down {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-between;
+  color: #B9B9B9;
+  font-size: 1.4rem;
+  font-weight: 300;
+  font-family: "Outfit";
+}
+.footer__terms {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.footer__terms > a {
+  color: #B9B9B9;
+  text-decoration: none;
 }
 
 .popup {
