@@ -8,7 +8,7 @@
   display: flex;
   padding-left: 4%;
   background-color: #FFAA4C;
-  height: 5dvh;
+  height: 3dvh;
 }
 .tabs__button {
   background-color: #FFAA4C;
@@ -16,7 +16,6 @@
   font-size: 1rem;
   font-weight: 500;
   border: none;
-  font-weight: medium;
   font-family: "Outfit";
 }
 .tabs__button--active {
@@ -28,6 +27,7 @@
 .logo {
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 .logo__orange-line {
   transform: translate(38px, -14px);
@@ -44,6 +44,8 @@
 }
 
 .header {
+  position: sticky;
+  top: 0;
   padding: 1rem 3rem;
   display: flex;
   justify-content: space-between;
@@ -51,16 +53,76 @@
 }
 .button {
   font-family: "Outfit";
+  transition: 0.5s;
   font-weight: 600;
   color: #FFFFFF;
   border-radius: 15px;
-  padding: 1.4rem 2rem;
+  padding: 1.2rem 3rem;
   font-size: 1.25rem;
   background-color: #954CED;
+}
+.button__text {
+  position: relative;
+  z-index: 2;
+}
+.button--background_dark {
+  border: solid 2px #954CED;
+}
+.button--background_light {
+  border-radius: 15px;
+}
+.button--background_light:after {
+  border-radius: 0;
+  transform: scale(1.1);
+}
+.button:hover {
+  transform: scale(1.2);
+}
+.button:after {
+  z-index: 1;
+  border-radius: 50%;
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  background: #181818;
+  transition: all 0.5s;
+}
+.button:hover:after {
+  height: 100%;
+  border-radius: 15px;
+  width: 100%;
 }
 
 .hero {
   background-color: #181818;
+  height: 100dvh;
+}
+.hero__inner {
+  padding: 5dvh 0 0 7dvw;
+  display: flex;
+  justify-content: space-between;
+}
+.hero__title {
+  font-weight: 700;
+  font-optical-sizing: 106%;
+  font-family: "Outfit";
+  font-size: 9rem;
+  color: #FFFFFF;
+  padding-bottom: 5dvh;
+}
+.hero__subtitle {
+  font-family: "Outfit";
+  font-size: 2rem;
+  color: #FFFFFF;
+  padding-bottom: 5dvh;
+}
+.hero__image {
+  margin-left: 10dvw;
+  height: 70dvh;
+  width: 70dvh;
 }
 
 .popup {
