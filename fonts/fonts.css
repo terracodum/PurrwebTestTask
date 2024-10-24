@@ -1,11 +1,35 @@
 @font-face {
-    font-family: "Outfit";
-    src: url(.\Outfit-Black.ttf) format('truetype');
-    font-weight: normal;
+    font-family: "Outfit-Regular";
+    src: url(./Outfit-Regular.ttf),
+         url(./Outfit-Regular.woff2) format("woff2");
+    font-weight: 400;
     font-style: normal;
 }
 @font-face {
-    font-family: "Outfit Bold";
-    src: url(.\Outfit-Bold.ttf) format('truetype');
-
+    font-family: "Outfit-Bold";
+    src: url(./Outfit-Bold.ttf),
+         url(./Outfit-Bold.woff2) format("woff2");;
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Outfit-Medium";
+    src: url(./Outfit-Medium.ttf),
+         url(./Outfit-Medium.woff2) format("woff2");;
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Outfit-SemiBold";
+    src: url(./Outfit-SemiBold.ttf),
+         url(./Outfit-SemiBold.woff2) format("woff2");;
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Oufit-Light";
+    src: url(./Outfit-Light.ttf)
+         url(./Outfit-Light.woff2) format("woff2");;
+    font-weight: 300;
+    font-style: normal;
 }
